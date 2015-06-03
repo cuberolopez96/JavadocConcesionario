@@ -3,18 +3,24 @@ package pgn.examenMarzo.concesionarioCoches;
  * @author Juan Antonio Cubero
  * @version 1.0.0*/
 public enum Modelo {
-
+/**modelo del coche */
 	SERIE1(Marca.BMW),
+	/**modelo del coche */
 
 	SERIE2(Marca.BMW),
+	/**modelo del coche */
 
 	SERIE3(Marca.BMW),
+	/**modelo del coche */
 
 	SERIE5(Marca.BMW),
+	/**modelo del coche */
 
 	CORDOBA(Marca.SEAT),
+	/**modelo del coche */
 
 	IBIZA(Marca.SEAT),
+	/**modelo del coche */
 
 	TOLEDO(Marca.SEAT);
 	/**Marca del modelo*/

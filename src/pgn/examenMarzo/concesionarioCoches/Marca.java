@@ -6,5 +6,8 @@ package pgn.examenMarzo.concesionarioCoches;
  *
  */
 public enum Marca {
-	BMW, SEAT
+	/** marca bmw del coche*/
+	BMW, 
+	/** marca seat del coche*/
+	SEAT;
 }

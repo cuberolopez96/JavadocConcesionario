@@ -9,7 +9,12 @@ package pgn.examenMarzo.concesionarioCoches;
  * 
  */
 public enum Color {
-	PLATA, ROJO, AZUL;
+	/**color plata del coche */
+	PLATA, 
+	/**color rojo del coche */
+	ROJO, 
+	/** color azul del coche*/
+	AZUL;
 /** Array dde colores para la posterior creacion de un men&uacute;*/
 	private static final Color[] VALUES = Color.values();
 /** Devuelve un array de cadenas con los nombres de los colores y la palabra salir

@@ -25,9 +25,9 @@ public class Concesionario {
 	/**Nombre del concesionario */
 	private final String nombre = "IES Gran Capitán";
 /**a&ntilde;ade un coche a la lista de coches
- * @param  matricula
- * @param  color
- * @param  modelo 
+ * @param  matricula 	matricula del coche
+ * @param  color	color del coche
+ * @param  modelo 	modelo de coche
  * @return true si ha a&ntilde;adido  el coche , false si no ha podido*/
 	boolean annadir(String matricula, Color color, Modelo modelo) {
 		Coche coche = Coche.instanciarCoche(matricula, color, modelo);
@@ -36,7 +36,7 @@ public class Concesionario {
 		return almacen.add(coche);
 	}
 	/**elimina un coche de la lista que coincida con la matricula pasada por parametro
-	 * @param matricula 
+	 * @param matricula 	matricula del coche
 	 * @return si lo ha eliminado, false si no */
 	boolean eliminar(String matricula) {
 		return almacen.remove(Coche.instanciarCoche(matricula));
@@ -64,7 +64,7 @@ public class Concesionario {
 		return null;
 	}
 
-	/*
+	/**
 	 * Devuelve una cadena con los datos del concesionario incluidos los coches que tiene en la lista
 	 * @return cadena con los datos del concesionario.
 	 * 
